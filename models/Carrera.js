@@ -17,14 +17,10 @@ class Carrera {
 
     if (this.#tortuga.getPosicion >= 100 && this.#liebre.getPosicion >= 100) {
       console.log('************* Empate *************');
-      // return 0;
-    }
-    if(this.#tortuga.getPosicion >= 100){
+    }else if(this.#tortuga.getPosicion >= 100){
       console.log(`\n******** Ganador Tortuga ********`);
-      // return 1;
     }else{
       console.log(`\n******** Ganador Liebre ********`);
-      // return -1;
     }
   }
 }
